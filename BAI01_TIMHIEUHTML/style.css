@@ -1,45 +1,36 @@
-h1
+.main
 {
-    font-size: 40px;
-    text-align: justify;
-    color: brown;
-    font-family: Arial;
-    background-image: url(./img/th\ \(4\).jpg);
-    background-size: 100%;
-    height: 700px;
-    text-indent: 50px;
-    
+    display: inline-block;
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+}
+
+.mini_menu
+{
+    display: block;
+    position: absolute;
+    top: 25%;
+    left: 9%;
+    list-style-type: none;
 
 }
 
-h2
+.mini_mini
 {
-    font-family: Arial;
-    font-weight: 800;
-    color: red;
-    text-align: justify;
+    border: 1px solid black;
+    margin-bottom: 8px;
 }
 
-h3
+
+.main_menu
 {
-    color: #4caf50;
+    display: inline-block;
 }
 
-p
+.mini_mini:hover
 {
-    font-size: 20px;
-    color: aliceblue;
-    text-align: justify;
-    text-indent: 50px;
-}
-
-img
-{
-    width: 300px;
-    margin-right: 2px;
-    border-radius: 20px;
-    border-style: dashed;
-    border-color: black;
-    border-width: 5px;
-
+    background-color: aqua;
+    color: black;
 }

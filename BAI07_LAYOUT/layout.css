@@ -1,0 +1,121 @@
+img
+{
+    width: 300px;
+    height: 50%;
+    float: left;
+    padding: 15px;
+}
+
+.whole
+{
+    width: 800px;
+
+}
+.layout_header
+{
+    width: 800px;
+    border: 3px solid black;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: rgb(130, 220, 220);
+    text-align: center;
+
+}
+
+.menu
+{
+    width: 800px;
+    height: 30px;
+    border: 3px solid black;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: blueviolet;
+}
+
+.left
+{
+    width: 200px;
+    height: 300px;
+    border: 3px solid black;
+    box-sizing: border-box;
+    padding: 5px;
+    background-color: brown;
+    float: left;
+}
+
+.main
+{
+    width: 400px;
+    height: 300px;
+    border: 3px solid black;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: aquamarine;
+    float: left;
+}
+
+.right
+{
+    width: 200px;
+    height: 300px;
+    border: 3px solid black;
+    padding: 5px;
+    background-color: brown;
+    float: left;
+    box-sizing: border-box;
+}
+
+.footer
+{
+    width: 800px;
+    border: 3px solid black;
+    padding: 5px;
+    background-color: bisque;
+    box-sizing: border-box;
+}
+
+
+.ptu:first-child:hover
+{
+    color: yellowgreen;
+    background-color: darkgreen;
+}
+
+.ptu
+{
+    width: 120px;
+    height: 30px;
+    padding: 3px;
+    border: 2px solid black;
+    text-align: center;
+    background-color: yellow;
+    font-size: 30px;
+    color: blue;
+}
+
+.ptu:last-child:hover
+{
+    color: brown;
+    background-color: cornflowerblue;
+}
+
+
+.con::first-letter
+{
+    color: red;
+    font-size: 100px;
+}
+
+.con::first-line
+{
+    color: red;
+
+}
+
+.con::after
+{
+    content:"Create webs with HTML";
+    color: blue;
+}
+
+
