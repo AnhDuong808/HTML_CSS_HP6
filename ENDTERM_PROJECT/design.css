@@ -49,6 +49,14 @@ body
     border-radius: 20%;
 }
 
+.line
+{
+    width: 80%;
+    height: 3px;
+    margin-top: 5%;
+    margin-left: 10%;
+    background-color: rgb(249, 188, 188);
+}
 
 .truyenkieu
 {
@@ -64,9 +72,9 @@ body
     position: relative;
     height: 400px;
     width: 200px;
-    margin-left: 10%;
-    margin-top: 15%;
-    font-family: 'Quicksand', sans-serif;
+    margin-left: 3%;
+    margin-top: 5%;
+    font-family: 'Lora', serif;
 }
 
 .title__tk
@@ -74,7 +82,7 @@ body
     position: absolute;
     top: 50%;
     left: 35%;
-    padding: 10px 50px;
+    padding: 5px 45px;
     background-color: white ;
     border-radius: 10px;
     font-size: 40px;
@@ -82,25 +90,25 @@ body
 
 .item_2
 {
-    padding-top: 16%;
+    padding-top: 6%;
 }
 
 .danhca
 {
-    float: right;
-    padding-right: 500px;
+    float: left;
+    margin-left: 15%;
     height: 500px;
 }
 
 .title_danhca
 {
     position: absolute;
-    top: 128%;
-    left: 43%;
-    background-color: white ;
+    top: 120%;
+    left: 35%;
+    background-color: white;
     border-radius: 10px;
     font-size: 40px;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Lora', serif;
     padding: 10px 50px;
 
 }
@@ -108,12 +116,49 @@ body
 .item_3
 {
     padding-top: 5%;
+    
 }
 
 .DC 
 {
-    float: right;
-    padding-left: 500px;
+    float: left;
+    margin-top: -5%;
+    margin-left: 5%;
     height: 500px;
 }
+
+.title_DC
+{
+    position:absolute;
+    top: 120%;
+    left: 66%;
+    background-color: white ;
+    border-radius: 10px;
+    font-size: 40px;
+    font-family: 'Lora', serif;
+    padding: 10px 50px;
+}
+
+.Bonus_img
+{
+    margin-top: 10%;
+    padding-left: 3%;
+    width: 50%;
+    border-radius: 30%;
+}
+
+.Author
+{
+    display: inline-block;
+    float: left;
+    padding-left: 30%;
+    position: absolute;
+    background-color: rgb(189, 220, 189);
+    font-family: 'Playfair Display', serif;
+    color: blue;
+    font-size: 30px;
+
+}
+
+
 
