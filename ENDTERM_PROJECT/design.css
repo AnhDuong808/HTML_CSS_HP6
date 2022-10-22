@@ -138,6 +138,9 @@ body
     font-family: 'Lora', serif;
     padding: 10px 50px;
 }
+.author__bonus{
+    height: auto;
+}
 
 .Bonus_img
 {
@@ -149,16 +152,27 @@ body
 
 .Author
 {
-    display: inline-block;
-    float: left;
-    padding-left: 30%;
-    position: absolute;
-    background-color: rgb(189, 220, 189);
-    font-family: 'Playfair Display', serif;
-    color: blue;
-    font-size: 30px;
-
+    
+    box-sizing: border-box
 }
 
+.title__tk:hover{
+    background-color: rgb(185, 234, 217);
+    color: rgb(0, 98, 255);
+    text-decoration: underline;
+}
 
+.title_danhca:hover
+{
+    background-color: rgb(185, 234, 217);
+    color: rgb(0, 98, 255);
+    text-decoration: underline;
+}
+
+.title_DC:hover
+{
+    background-color: rgb(185, 234, 217);
+    color: rgb(0, 98, 255);
+    text-decoration: underline;
+}
 

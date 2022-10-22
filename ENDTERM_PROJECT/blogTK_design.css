@@ -1,0 +1,22 @@
+.content
+{
+    margin-top: none;
+    margin-left: none;
+    border: 3px solid blue;
+    background-color: beige;
+    color: rgb(224, 78, 24);
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 10%;
+}
+.nd__
+{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10%;
+    font-size: 30px;
+    text-align: center;
+    border: 5px solid orange;
+    width: 80%;
+    margin-left: 10%;
+    background-color: cornsilk;
+
+}
